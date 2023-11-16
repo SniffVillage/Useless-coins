@@ -21,3 +21,9 @@ An example:
             .setScale(0.020F))
             .setPickupSound(UselessCoins.COIN_COLLECT).setWeight(90));
 ```
+
+You should always put a call method inside the registry class just like any other registry class:
+
+```
+public static void reg() {}
+```
