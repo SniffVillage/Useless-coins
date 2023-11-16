@@ -58,5 +58,5 @@ public class ExamplePickUpEvent implements CoinEvents.CoinPickup {
 ```
 Always remember to register the event:
 ``` Java
-	CoinEvents.COIN_PICKUP_EVENT.register(new ExamplePickUpEvent());
+CoinEvents.COIN_PICKUP_EVENT.register(new ExamplePickUpEvent());
 ```
