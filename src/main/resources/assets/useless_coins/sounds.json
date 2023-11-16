@@ -1,0 +1,34 @@
+{
+  "coin.bounce": {
+    "subtitle": "sub.useless_coins.coin.bounce",
+    "sounds": [
+      "useless_coins:coin_bounce"
+    ]
+  },
+  "coin.pop": {
+    "subtitle": "sub.useless_coins.coin.pop",
+    "sounds": [
+      "useless_coins:coin_pop"
+    ]
+  },
+  "coin.collect": {
+    "sounds": [
+      "useless_coins:coin_collect"
+    ]
+  },
+  "coin.gold.collect": {
+    "sounds": [
+      "useless_coins:gold_coin_collect"
+    ]
+  },
+  "coin.blue.collect": {
+    "sounds": [
+      "useless_coins:blue_coin_collect"
+    ]
+  },
+  "coin.purple.collect": {
+    "sounds": [
+      "useless_coins:purple_coin_collect"
+    ]
+  }
+}
