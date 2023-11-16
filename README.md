@@ -27,3 +27,36 @@ You should always put a call method inside the registry class just like any othe
 ```
 public static void reg() {}
 ```
+
+# Coin helper
+The coin helper has some helper methods:
+
+Adding coins:
+```
+CoinHelper.addCoins(player, amount);
+```
+Removing coins:
+```
+CoinHelper.removeCoins(player, amount);
+```
+Getting the coins amount:
+```
+CoinHelper.getCoins(player);
+```
+
+# Events
+Currently there is only one event, the CoinPickup event:
+
+```
+public class ExamplePickUpEvent implements CoinEvents.CoinPickup {
+
+    @Override
+    public void coinPickup(UselessCoins.Coin coin, PlayerEntity player) {
+        // Add code here
+    }
+}
+```
+Always remember to register the event:
+```
+	CoinEvents.COIN_PICKUP_EVENT.register(new ExamplePickUpEvent());
+```
