@@ -14,7 +14,7 @@ You might want to edit the weights to be compatable with other addons because it
 
 An example:
 
-```
+``` Java
  public static final CoinType EXAMPLE_COIN = CoinTypeRegistryFactory.register(1241, new CoinType().setVisualCoinProperties(
             new VisualCoinProperties("textures/example_coins")
             .setIndexes(8)
@@ -24,7 +24,7 @@ An example:
 
 You should always put a call method inside the registry class just like any other registry class:
 
-```
+``` Java
 public static void reg() {}
 ```
 
@@ -32,22 +32,22 @@ public static void reg() {}
 The coin helper has some helper methods:
 
 Adding coins:
-```
+``` Java
 CoinHelper.addCoins(player, amount);
 ```
 Removing coins:
-```
+``` Java
 CoinHelper.removeCoins(player, amount);
 ```
 Getting the coins amount:
-```
+``` Java
 CoinHelper.getCoins(player);
 ```
 
 # Events
 Currently there is only one event, the CoinPickup event:
 
-```
+``` Java
 public class ExamplePickUpEvent implements CoinEvents.CoinPickup {
 
     @Override
@@ -57,6 +57,6 @@ public class ExamplePickUpEvent implements CoinEvents.CoinPickup {
 }
 ```
 Always remember to register the event:
-```
+``` Java
 	CoinEvents.COIN_PICKUP_EVENT.register(new ExamplePickUpEvent());
 ```
