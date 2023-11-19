@@ -1,0 +1,11 @@
+{
+  "useless_coins:coin.bounce": "Coin Bounce",
+  "useless_coins:coin.pop": "Coin Pop",
+  "useless_coins:coin.collect": "Coin Collect",
+  "useless_coins:coin.gold.collect": "Gold Coin Collect",
+  "useless_coins:coin.blue.collect": "Blue Coin Collect",
+  "useless_coins:coin.purple.collect": "Purple Coin Collect",
+
+  "sub.useless_coins.coin.bounce": "Coin bouncing",
+  "sub.useless_coins.coin.pop": "Coin popped"
+}
