@@ -3,6 +3,26 @@ A mod/API that adds coins to the game while not changing the vanilla gameplay,
 that's why its called the Useless Coins mod. Other developers can add there own coins,
 and gameplay features using the coins.
 
+# Using it in your project
+To include Useless Coins then add this to your ``build.gradle``
+``` Gradle
+repositories {
+	maven {
+		name = "Modrinth"
+		url = "https://api.modrinth.com/maven"
+	}
+}
+
+dependencies {
+	modApi include("maven.modrinth:useless-coins:${project.useless_coins_version}")
+}
+```
+And then include the version to the ``gradle.properties``
+``` properties
+useless_coins_version=0.0.1-1.20.1
+```
+
+
 # Adding custom coin types
 When adding a new coin type you should ALWAYS use a unique ID
 
