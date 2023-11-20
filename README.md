@@ -27,7 +27,7 @@ And finaly add the dependency to the ``fabric.mod.json``
 		"useless_coins": "VERSION"
 	},
 ```
-change VERSION with the version you want to use
+replace VERSION with the version you want to use
 
 # Adding custom coin types
 When adding a new coin type you should ALWAYS use a unique ID
