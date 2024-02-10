@@ -32,9 +32,7 @@ public class FireworkS2CPacket {
     }
 
     public static void spawnFirework(Vec3d pos, World world) {
-
-        System.out.println("Test");
-
+        
         int[] colors = {0xFF0000, 0xFF7F00, 0xFFFF00, 0x00FF00, 0x0000FF, 0x4B0082, 0x9400D3}; // Rainbow colors
 
         NbtCompound firework = new NbtCompound();
