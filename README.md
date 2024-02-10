@@ -21,13 +21,6 @@ And then include the version to the ``gradle.properties``
 ``` Properties
 useless_coins_version=0.0.1-1.20.1
 ```
-And finaly add the dependency to the ``fabric.mod.json``
-``` Json
-	"depends": {
-		"useless_coins": "VERSION"
-	},
-```
-Replace VERSION with the version you want to use
 
 # Adding custom coin types
 When adding a new coin type you should ALWAYS use a unique ID
