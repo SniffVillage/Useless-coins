@@ -139,7 +139,7 @@ public class UselessCoins implements ModInitializer {
 
 		public void onPickup(PlayerEntity player) {
 			if (!this.getWorld().isClient()) {
-				if (player.distanceTo(this) < 1) {
+				if (player.distanceTo(this) < 1.5F) {
 
 					CoinType coinType = this.getCoinType();
 
